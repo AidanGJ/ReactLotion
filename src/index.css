@@ -14,3 +14,161 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.App {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 16px;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 0;
+  font-size: 25px;
+  height: 100%;
+  padding: 15px;
+}
+
+button:hover {
+  background-color: #826d8c;
+}
+
+.pageBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  border-top: 4px solid #826d8c;
+  border-bottom: 2px solid #D3D3D3;
+}
+
+.pageBanner div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page {
+  display: flex;
+}
+
+#noteMenu {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid #DDDDDD;
+}
+
+.noteMenuBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.noteMenuBanner h1 {
+  margin: 10px;
+}
+
+.noteMenuList {
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+
+.noteMenuItem {
+  padding: 25px;
+  cursor: pointer;
+}
+
+.itemTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noteMenuItem small {
+  display: block;
+  color: #999999;
+}
+
+.noteMenuItem:hover {
+  background-color: #826d8c;
+}
+
+.noActiveNote {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  color: #999;
+}
+
+#openNoteEdit {
+  width: 70%;
+  height: 100vh;
+}
+
+.noteBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid #D3D3D3;
+}
+
+.titleCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleCard small {
+  padding: 5px;
+  color: #999999;
+}
+
+.editDelButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.editDelButtons button {
+  font-size: 20px;
+}
+
+#noteTitle {
+  display: block;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: calc(50vh - 130px);
+  padding-left: 5px;
+  resize: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+#noteTitle {
+  height: 50px;
+  font-size: 2rem;
+}
+
+::placeholder {
+  opacity: 1;
+  color: #999999;
+}
+
+.active {
+  background-color: #CBC3E3;
+}
+
+#editorTxt {
+  width: 99.5%;
+  height: 100vh;
+  outline: none;
+  border: none;
+  resize: none;
+  font-size: 15px;
+  margin: 10px;
+}
