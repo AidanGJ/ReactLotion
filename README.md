@@ -78,4 +78,4 @@ In this assignment, you will create a Notion-like application named Lotion with 
 
 ## Bonous points
 - Tags. They need to be searchable. That is, when a user is picking a tag for a note, the application should suggest similar tags
-- Sorting and searching for the notes
+- Sorting and searching for the notes"# ReactLotion" 
